@@ -1,0 +1,161 @@
+
+
+/* Box styles */
+
+.myBox {
+border: none;
+padding: 5px;
+font: 24px/36px sans-serif;
+width: 200px;
+height: 200px;
+overflow: scroll;
+margin: 0px;
+}
+
+/* Scrollbar style */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+margin: 0px;
+}
+
+::-webkit-scrollbar-track {
+border-radius: 12px;
+margin: 0px;
+}
+
+::-webkit-scrollbar-track:vertical {
+background: -webkit-linear-gradient(top, white, #9fac9e); 
+margin: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #efd9c1;  
+border-radius: 12px;
+margin: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background:#bfad9a; 
+margin: 0px;
+}
+
+/* header */
+.blue-background{
+  background-color:#a9b7c0;
+  margin: 0px;
+  position: relative;
+} 
+
+
+h1 {
+  font-family: 'Rasa', serif;
+  font-size: 75px;
+  color:#f4f4f4;
+  margin:0px;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 2px;
+}
+#h1{
+  -vendor-animation:5s;
+  -vendor-animation-delay:10s;
+  -vendor-animation-iteration-count:infinite;
+}
+
+.green-background {
+  background-color:#c7d8c6;
+  margin:0px;
+  padding: 35px;
+}
+.green-background p {
+  padding-top: 15px;
+  margin: 0px;
+}
+
+.jean-image1 img{
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+#jean-image1 {
+  border-radius: 15px;
+  opacity: .85;
+}
+#image-text {
+  font-size: 15px;
+  font-family:'Rasa', serif;
+  margin: 0px;
+  text-align: center;
+  opacity:.75;
+  letter-spacing: 1px;
+}
+
+h2{
+  font-family:'Rasa', serif;
+  font-size: 45px;
+  color:	#f4f4f4;
+  margin:0px;
+  text-align: center;
+  letter-spacing:2px;
+}
+
+.intro-background{
+  background-color:#b7b6b2;
+  font-size: 20px;
+  font-family:'Rasa', serif;
+  color:#fbf7f2;
+  margin: 0px;
+  padding:45px;
+  letter-spacing:2px;
+  text-align: left;
+}
+#intro-background{
+  -vendor-animation-duration:5s;
+  -vendor-animation-delay:3s;
+  -vendor-animation-iteration-count:infinite;
+}
+#jean-quote{
+  font-size: 30px;
+  font-family:'Rasa', serif;
+  margin: 0px;
+  text-align: center;
+  color: #f2e0cd;
+  letter-spacing: 1px;
+  padding:15px;
+}
+#jean-quote-2{
+  font-size: 30px;
+  font-family:'Rasa', serif;
+  margin: 0px;
+  text-align: center;
+  color: #f2e0cd;
+  letter-spacing: 1px;
+  pading: 15 px;
+}
+#jean-quote-2-citation{
+  font-size: 15px;
+  font-family: 'Rasa', serif;
+  margin:0px;
+  text-align: center;
+  color: #f2e0cd;
+  letter-spacing: 1px;
+}
+h3{
+  font-family:'Rasa', serif;
+  font-size: 45px;
+  color:	#f4f4f4;
+  margin:0px;
+  text-align: center;
+  letter-spacing:2px;
+  padding: 30px;
+}
+h4{
+  font-family:'Rasa', serif;
+  font-size: 45px;
+  color:	#f4f4f4;
+  margin:0px;
+  text-align: center;
+  letter-spacing:2px;
+  padding: 30px;
+}
